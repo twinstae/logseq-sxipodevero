@@ -43,6 +43,9 @@
  {:block/name "composition 합성",
   :block/created-at 1656696484511,
   :block/updated-at 1656696484511}
+ {:block/name "contents",
+  :block/created-at 1656733260302,
+  :block/updated-at 1656733260302}
  {:block/name "cpu",
   :block/created-at 1656696546112,
   :block/updated-at 1656696657630}
@@ -87,7 +90,7 @@
   :block/updated-at 1656698277669}
  {:block/name "functional 함수형",
   :block/created-at 1656696431376,
-  :block/updated-at 1656696761052}
+  :block/updated-at 1656730090251}
  {:block/name "garbage collection 쓰레기 수집",
   :block/created-at 1656696618670,
   :block/updated-at 1656696618670}
@@ -157,6 +160,9 @@
  {:block/name "playwright 플레이라이트",
   :block/created-at 1656699482488,
   :block/updated-at 1656699482488}
+ {:block/name "prolog",
+  :block/created-at 1656730140344,
+  :block/updated-at 1656730140344}
  {:block/name "provider와 context를 이용한 주입",
   :block/created-at 1656698969583,
   :block/updated-at 1656698969583}
@@ -280,6 +286,9 @@
  {:block/name "기초부터 완성까지 프런트엔드",
   :block/created-at 1656698072336,
   :block/updated-at 1656698078105}
+ {:block/name "논리형 logical",
+  :block/created-at 1656730090249,
+  :block/updated-at 1656730147326}
  {:block/name "매개변수를 이용한 주입",
   :block/created-at 1656698922779,
   :block/updated-at 1656698922779}
