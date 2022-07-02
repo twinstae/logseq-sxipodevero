@@ -1,3 +1,3 @@
 - 함수형 프로그래밍은 [[Object Oriented 객체지향]]이나 [[Functional 함수형]] 과 함께 [[Declarative 선언적]]인 프로그래밍 패러다임 중 하나입니다.
 -
-- 논리형 언어에는 Prolog
+- 논리형 언어로는 [[Prolog]] 가 유명합니다.
