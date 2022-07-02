@@ -54,7 +54,10 @@
   :block/updated-at 1656699733820}
  {:block/name "declarative 선언적",
   :block/created-at 1656698593057,
-  :block/updated-at 1656698593057}
+  :block/updated-at 1656771502506}
+ {:block/name "deno 디노",
+  :block/created-at 1656771959166,
+  :block/updated-at 1656771998951}
  {:block/name "dependency injection 의존성 주입",
   :block/created-at 1656698002572,
   :block/updated-at 1656699027663}
@@ -76,12 +79,15 @@
  {:block/name "elixir 엘릭서",
   :block/created-at 1656696213693,
   :block/updated-at 1656696683425}
- {:block/name "emacs",
-  :block/created-at 1656699554986,
-  :block/updated-at 1656699554986}
+ {:block/name "encapsulation 캡슐화",
+  :block/created-at 1656771634305,
+  :block/updated-at 1656771814167}
  {:block/name "erlang 얼랭",
   :block/created-at 1656696353561,
   :block/updated-at 1656696433786}
+ {:block/name "fastapi",
+  :block/created-at 1656772220506,
+  :block/updated-at 1656772258492}
  {:block/name "favorites",
   :block/created-at 1656696917897,
   :block/updated-at 1656696917897}
@@ -94,6 +100,9 @@
  {:block/name "garbage collection 쓰레기 수집",
   :block/created-at 1656696618670,
   :block/updated-at 1656696618670}
+ {:block/name "imperative 명령형",
+  :block/created-at 1656771493385,
+  :block/updated-at 1656771714694}
  {:block/name "import를 이용한 주입",
   :block/created-at 1656699027660,
   :block/updated-at 1656699027660}
@@ -133,15 +142,9 @@
  {:block/name "mpa 다중 페이지 애플리케이션",
   :block/created-at 1656699755482,
   :block/updated-at 1656699869885}
- {:block/name "nano",
-  :block/created-at 1656699564656,
-  :block/updated-at 1656699564656}
  {:block/name "native 네이티브",
   :block/created-at 1656698258809,
   :block/updated-at 1656698258809}
- {:block/name "notepad++",
-  :block/created-at 1656699560940,
-  :block/updated-at 1656699560940}
  {:block/name "now",
   :block/created-at 1656696917898,
   :block/updated-at 1656696917898}
@@ -190,9 +193,18 @@
  {:block/name "ruby 루비",
   :block/created-at 1656696313581,
   :block/updated-at 1656696707452}
+ {:block/name "runtime 런타임",
+  :block/created-at 1656771996241,
+  :block/updated-at 1656771996241}
+ {:block/name "rust 러스트",
+  :block/created-at 1656771981154,
+  :block/updated-at 1656771981154}
  {:block/name "seo 검색 엔진 최적화",
   :block/created-at 1656699712171,
   :block/updated-at 1656699712171}
+ {:block/name "server 서버",
+  :block/created-at 1656772251294,
+  :block/updated-at 1656772251294}
  {:block/name "shared resource 공유 자원",
   :block/created-at 1656696566573,
   :block/updated-at 1656696566573}
@@ -205,6 +217,9 @@
  {:block/name "ssr 서버 사이드 렌더링",
   :block/created-at 1656699724100,
   :block/updated-at 1656699724100}
+ {:block/name "state 상태",
+  :block/created-at 1656771544252,
+  :block/updated-at 1656771544252}
  {:block/name "static site generator 정적 사이트 생성기",
   :block/created-at 1656699693012,
   :block/updated-at 1656699693012}
@@ -225,7 +240,7 @@
   :block/updated-at 1656697320161}
  {:block/name "text editor 텍스트 편집기",
   :block/created-at 1656699529526,
-  :block/updated-at 1656699564657}
+  :block/updated-at 1656772158625}
  {:block/name "todo",
   :block/created-at 1656696917898,
   :block/updated-at 1656696917898}
@@ -286,9 +301,15 @@
  {:block/name "기초부터 완성까지 프런트엔드",
   :block/created-at 1656698072336,
   :block/updated-at 1656698078105}
+ {:block/name "노드js node.js",
+  :block/created-at 1656771971956,
+  :block/updated-at 1656771971956}
  {:block/name "논리형 logical",
   :block/created-at 1656730090249,
   :block/updated-at 1656730147326}
+ {:block/name "누출",
+  :block/created-at 1656771704234,
+  :block/updated-at 1656771704234}
  {:block/name "매개변수를 이용한 주입",
   :block/created-at 1656698922779,
   :block/updated-at 1656698922779}
