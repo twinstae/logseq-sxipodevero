@@ -1,0 +1,2 @@
+- 얼랭은 작은 [[Operating System 운영체제]] 같은 [[Functional 함수형]] 언어입니다.
+-

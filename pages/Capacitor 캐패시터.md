@@ -1,0 +1,1 @@
+- [[Mobile 모바일]] 애플리케이션을 [[Web View 웹 뷰]] 기반으로 만들 수 있게, [[Native 네이티브]] [[API]]를 [[Javascript 자바스크립트]]로 [[바인딩 Binding]]해주는 [[Library 라이브러리]]

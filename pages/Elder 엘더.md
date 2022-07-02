@@ -1,0 +1,1 @@
+- 엘더는 [[SEO 검색 엔진 최적화]]에 특화된 [[Svelte 스벨트]] 기반의 [[Static Site Generator 정적 사이트 생성기]]로 [[SvelteKit 스벨트킷]]과는 달리 [[MPA 다중 페이지 애플리케이션]]을 지향하며 [[Partial Hydration 파셜 하이드레이션]]을 지원한다.

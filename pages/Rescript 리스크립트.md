@@ -1,0 +1,1 @@
+- [[Javascript 자바스크립트]]로 [[Compile 컴파일]] 되는 [[Ocaml 오카믈]] 스타일의 [[강타입 Strongly Typed]] [[Functional 함수형]] 언어
