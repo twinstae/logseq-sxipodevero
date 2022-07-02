@@ -1,5 +1,5 @@
 - [[VSCode]]
 - [[Vim]]
-- [[Emacs]]
-- [[Notepad++]]
-- [[Nano]]
+- Emacs
+- Notepad++
+- Nano
