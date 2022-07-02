@@ -90,7 +90,7 @@
   :block/updated-at 1656698277669}
  {:block/name "functional 함수형",
   :block/created-at 1656696431376,
-  :block/updated-at 1656730090251}
+  :block/updated-at 1656763385677}
  {:block/name "garbage collection 쓰레기 수집",
   :block/created-at 1656696618670,
   :block/updated-at 1656696618670}
