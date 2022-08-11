@@ -1,0 +1,2 @@
+- [[Design by Contract 계약에 따른 설계]] 개념에 기반한 [[Object Oriented 객체지향]] [[Programming Language 프로그래밍 언어]]다.
+-

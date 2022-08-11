@@ -1,1 +1,1 @@
-- 빔은 [[터미널 Terminal]]에서 돌아가는 [[Text Editor 텍스트 편집기]] 중 하나다.
+- 빔은 [[Terminal 터미널]]에서 돌아가는 [[Text Editor 텍스트 편집기]] 중 하나다.

@@ -1,2 +1,2 @@
-- [[Declarative 선언적]]인 [[UI 사용자 인터페이스]]를 만들 수 있게 도와주는 [[Library 라이브러리]]다. 대표적으로 [[Web 웹]]을 지원하는 react-dom과, 모바일 플랫폼을 대상으로 하는 [[React Native 리액트 네이티브]]가 있다.
--
+- [[Declarative 선언적]]인 [[UI 사용자 인터페이스]]를 만들 수 있게 도와주는 [[Library 라이브러리]]다.
+- [[플랫폼 flatform]]에 무관하며 다양한 타겟을 지원한다. 대표적으로 [[Web 웹]]을 지원하는 react-dom과, 모바일 플랫폼을 대상으로 하는 [[React Native 리액트 네이티브]]가 있다. [[GUI]]가 아니라 [[CLI]]를 렌더하는 React-Ink나 동영상을 만드는 remotion 도 있다.

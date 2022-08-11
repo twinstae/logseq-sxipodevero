@@ -7,42 +7,69 @@
  {:block/name "api",
   :block/created-at 1656698431987,
   :block/updated-at 1656698431987}
+ {:block/name "assertion 단언",
+  :block/created-at 1660097618376,
+  :block/updated-at 1660097618376}
  {:block/name "astro 아스트로",
   :block/created-at 1656699591632,
   :block/updated-at 1656700260045}
+ {:block/name "aug 10th, 2022",
+  :block/created-at 1660093356036,
+  :block/updated-at 1660112613964}
+ {:block/name "aug 11th, 2022",
+  :block/created-at 1660152707740,
+  :block/updated-at 1660152707740}
  {:block/name "b",
   :block/created-at 1656696917898,
   :block/updated-at 1656696917898}
+ {:block/name "bash",
+  :block/created-at 1660100046744,
+  :block/updated-at 1660100046744}
  {:block/name "book",
   :block/created-at 1656698027942,
   :block/updated-at 1656698027942}
  {:block/name "boundary 경계",
   :block/created-at 1656697082285,
   :block/updated-at 1656697082285}
+ {:block/name "browser 브라우저",
+  :block/created-at 1660100279473,
+  :block/updated-at 1660100279473}
  {:block/name "c",
   :block/created-at 1656696917898,
   :block/updated-at 1656696917898}
+ {:block/name "canceled",
+  :block/created-at 1660100279473,
+  :block/updated-at 1660100279473}
+ {:block/name "cancelled",
+  :block/created-at 1660100279473,
+  :block/updated-at 1660100279473}
  {:block/name "capacitor 캐패시터",
   :block/created-at 1656698197115,
   :block/updated-at 1656698452096}
  {:block/name "card",
   :block/created-at 1656696917897,
   :block/updated-at 1656696917897}
+ {:block/name "cli",
+  :block/created-at 1660098494737,
+  :block/updated-at 1660100046750}
  {:block/name "client 클라이언트",
   :block/created-at 1656697035157,
   :block/updated-at 1656697035157}
+ {:block/name "clojure 클로저",
+  :block/created-at 1660099154830,
+  :block/updated-at 1660099154830}
  {:block/name "compile 컴파일",
   :block/created-at 1656698519191,
   :block/updated-at 1656698519191}
  {:block/name "compiler 컴파일러",
   :block/created-at 1656700059128,
   :block/updated-at 1656700080232}
- {:block/name "component test 컴포넌트 테스트",
-  :block/created-at 1656697295912,
-  :block/updated-at 1656697295912}
  {:block/name "composition 합성",
   :block/created-at 1656696484511,
   :block/updated-at 1656696484511}
+ {:block/name "console 콘솔",
+  :block/created-at 1660098154601,
+  :block/updated-at 1660099397267}
  {:block/name "contents",
   :block/created-at 1656733260302,
   :block/updated-at 1656733260302}
@@ -61,24 +88,30 @@
  {:block/name "dependency injection 의존성 주입",
   :block/created-at 1656698002572,
   :block/updated-at 1656699027663}
+ {:block/name "dependency 의존성",
+  :block/created-at 1660097573133,
+  :block/updated-at 1660097573133}
  {:block/name "design by contract 계약에 따른 설계",
   :block/created-at 1656699645034,
-  :block/updated-at 1656699645034}
+  :block/updated-at 1660097743552}
  {:block/name "doing",
   :block/created-at 1656696917897,
   :block/updated-at 1656696917897}
  {:block/name "done",
   :block/created-at 1656696917898,
   :block/updated-at 1656696917898}
- {:block/name "e2e test 종단 간 테스트",
-  :block/created-at 1656697272146,
-  :block/updated-at 1656697272146}
+ {:block/name "eiffel 에펠",
+  :block/created-at 1660097130294,
+  :block/updated-at 1660118334443}
  {:block/name "elder 엘더",
   :block/created-at 1656699659673,
   :block/updated-at 1656700224377}
  {:block/name "elixir 엘릭서",
   :block/created-at 1656696213693,
   :block/updated-at 1656696683425}
+ {:block/name "emulation 에뮬레이션",
+  :block/created-at 1660098154600,
+  :block/updated-at 1660098313578}
  {:block/name "encapsulation 캡슐화",
   :block/created-at 1656771634305,
   :block/updated-at 1656771814167}
@@ -100,6 +133,15 @@
  {:block/name "garbage collection 쓰레기 수집",
   :block/created-at 1656696618670,
   :block/updated-at 1656696618670}
+ {:block/name "golang 고랭",
+  :block/created-at 1660139354157,
+  :block/updated-at 1660139354157}
+ {:block/name "gtd",
+  :block/created-at 1660229891767,
+  :block/updated-at 1660229931707}
+ {:block/name "gui",
+  :block/created-at 1660097872915,
+  :block/updated-at 1660097872915}
  {:block/name "imperative 명령형",
   :block/created-at 1656771493385,
   :block/updated-at 1656771714694}
@@ -109,30 +151,45 @@
  {:block/name "in-progress",
   :block/created-at 1656696917898,
   :block/updated-at 1656696917898}
- {:block/name "integration test 통합 테스트",
-  :block/created-at 1656697305202,
-  :block/updated-at 1656697305202}
+ {:block/name "interactive 상호작용적",
+  :block/created-at 1660098994063,
+  :block/updated-at 1660099007509}
  {:block/name "interface 인터페이스",
   :block/created-at 1656696974031,
-  :block/updated-at 1656698797775}
+  :block/updated-at 1660097639345}
+ {:block/name "interpreter 인터프리터",
+  :block/created-at 1660100279473,
+  :block/updated-at 1660100279473}
+ {:block/name "invariant 불변식",
+  :block/created-at 1660097511955,
+  :block/updated-at 1660097511955}
  {:block/name "ionic 아이오닉",
   :block/created-at 1656698186898,
   :block/updated-at 1656698383870}
  {:block/name "javascript 자바스크립트",
   :block/created-at 1656697247439,
   :block/updated-at 1656697247439}
+ {:block/name "jest 제스트",
+  :block/created-at 1660155730070,
+  :block/updated-at 1660155730070}
  {:block/name "jul 2nd, 2022",
   :block/created-at 1656695721430,
-  :block/updated-at 1656696134716}
+  :block/updated-at 1660118286912}
  {:block/name "later",
   :block/created-at 1656696917897,
   :block/updated-at 1656696917897}
  {:block/name "library 라이브러리",
   :block/created-at 1656698383860,
   :block/updated-at 1656698383860}
- {:block/name "marko 마르코",
-  :block/created-at 1656699599865,
-  :block/updated-at 1656699599865}
+ {:block/name "linux 리눅스",
+  :block/created-at 1660098193524,
+  :block/updated-at 1660100118901}
+ {:block/name "lua 루아",
+  :block/created-at 1660139448046,
+  :block/updated-at 1660139448046}
+ {:block/name "macos",
+  :block/created-at 1660100026496,
+  :block/updated-at 1660100026496}
  {:block/name "memory 메모리",
   :block/created-at 1656696553314,
   :block/updated-at 1656696553314}
@@ -154,15 +211,18 @@
  {:block/name "ocaml 오카믈",
   :block/created-at 1656698519189,
   :block/updated-at 1656698519189}
+ {:block/name "open source 오픈소스",
+  :block/created-at 1660100105108,
+  :block/updated-at 1660100105108}
  {:block/name "operating system 운영체제",
   :block/created-at 1656696416651,
   :block/updated-at 1656696416651}
  {:block/name "partial hydration 파셜 하이드레이션",
   :block/created-at 1656700224363,
   :block/updated-at 1656700224363}
- {:block/name "playwright 플레이라이트",
-  :block/created-at 1656699482488,
-  :block/updated-at 1656699482488}
+ {:block/name "programming language 프로그래밍 언어",
+  :block/created-at 1660097090517,
+  :block/updated-at 1660099167034}
  {:block/name "prolog",
   :block/created-at 1656730140344,
   :block/updated-at 1656730140344}
@@ -180,13 +240,13 @@
   :block/updated-at 1656698300083}
  {:block/name "react 리액트",
   :block/created-at 1656698268728,
-  :block/updated-at 1656698673814}
+  :block/updated-at 1660098073451}
  {:block/name "reactive 반응형",
   :block/created-at 1656700105543,
   :block/updated-at 1656700105543}
- {:block/name "realworld",
-  :block/created-at 1656699267469,
-  :block/updated-at 1656699267469}
+ {:block/name "repl",
+  :block/created-at 1660098287458,
+  :block/updated-at 1660099348259}
  {:block/name "rescript 리스크립트",
   :block/created-at 1656698480488,
   :block/updated-at 1656698537541}
@@ -208,6 +268,15 @@
  {:block/name "shared resource 공유 자원",
   :block/created-at 1656696566573,
   :block/updated-at 1656696566573}
+ {:block/name "shell 셸",
+  :block/created-at 1660099397264,
+  :block/updated-at 1660099397264}
+ {:block/name "shortcut 단축키",
+  :block/created-at 1660099646760,
+  :block/updated-at 1660099646760}
+ {:block/name "side effect 부수 효과",
+  :block/created-at 1660097573132,
+  :block/updated-at 1660097573132}
  {:block/name "spa 단일 페이지 애플리케이션",
   :block/created-at 1656699744396,
   :block/updated-at 1656699923930}
@@ -223,30 +292,33 @@
  {:block/name "static site generator 정적 사이트 생성기",
   :block/created-at 1656699693012,
   :block/updated-at 1656699693012}
+ {:block/name "static type 정적 타입",
+  :block/created-at 1660100279473,
+  :block/updated-at 1660100279473}
  {:block/name "svelte 스벨트",
   :block/created-at 1656699679316,
-  :block/updated-at 1656700114991}
+  :block/updated-at 1660097983198}
  {:block/name "sveltekit 스벨트킷",
   :block/created-at 1656699771193,
   :block/updated-at 1656699838327}
- {:block/name "tauri 타우리",
-  :block/created-at 1656699468277,
-  :block/updated-at 1656699468277}
+ {:block/name "sxipo de vero 진리의 배",
+  :block/created-at 1656696172382,
+  :block/updated-at 1660229404249}
+ {:block/name "terminal 터미널",
+  :block/created-at 1660098873583,
+  :block/updated-at 1660098873583}
  {:block/name "test 테스트",
   :block/created-at 1656696936650,
   :block/updated-at 1656696994202}
- {:block/name "testing-library 테스팅 라이브러리",
-  :block/created-at 1656697320161,
-  :block/updated-at 1656697320161}
  {:block/name "text editor 텍스트 편집기",
   :block/created-at 1656699529526,
   :block/updated-at 1656772158625}
  {:block/name "todo",
   :block/created-at 1656696917898,
   :block/updated-at 1656696917898}
- {:block/name "todomvc",
-  :block/created-at 1656699262356,
-  :block/updated-at 1656699262356}
+ {:block/name "tui",
+  :block/created-at 1660099552573,
+  :block/updated-at 1660099552573}
  {:block/name "type 타입",
   :block/created-at 1656699645035,
   :block/updated-at 1656699645035}
@@ -255,31 +327,28 @@
   :block/updated-at 1656698343116}
  {:block/name "ui 사용자 인터페이스",
   :block/created-at 1656698298095,
-  :block/updated-at 1656698298095}
- {:block/name "unit test 유닛 테스트",
-  :block/created-at 1656697287786,
-  :block/updated-at 1656697287786}
+  :block/updated-at 1660097926539}
+ {:block/name "unix 유닉스",
+  :block/created-at 1660100026497,
+  :block/updated-at 1660100026497}
  {:block/name "user 사용자",
   :block/created-at 1656697035160,
   :block/updated-at 1656697035160}
- {:block/name "vero",
-  :block/created-at 1656696172382,
-  :block/updated-at 1656696213696}
  {:block/name "vim",
   :block/created-at 1656699551417,
   :block/updated-at 1656699551417}
  {:block/name "vim 빔",
   :block/created-at 1656699502386,
   :block/updated-at 1656699541362}
- {:block/name "vitest 바이테스트",
-  :block/created-at 1656699462566,
-  :block/updated-at 1656699462566}
+ {:block/name "vite 비트",
+  :block/created-at 1660155707858,
+  :block/updated-at 1660155707858}
+ {:block/name "vitest",
+  :block/created-at 1660155688355,
+  :block/updated-at 1660155737527}
  {:block/name "vscode",
   :block/created-at 1656699548999,
   :block/updated-at 1656699548999}
- {:block/name "vue 뷰",
-  :block/created-at 1656700877244,
-  :block/updated-at 1656700877244}
  {:block/name "wait",
   :block/created-at 1656696917898,
   :block/updated-at 1656696917898}
@@ -290,8 +359,17 @@
   :block/created-at 1656698416715,
   :block/updated-at 1656698416715}
  {:block/name "web 웹",
-  :block/created-at 1656698630964,
-  :block/updated-at 1656698630964}
+  :block/created-at 1660100279473,
+  :block/updated-at 1660100279473}
+ {:block/name "windows 윈도우즈",
+  :block/created-at 1660099870338,
+  :block/updated-at 1660099870338}
+ {:block/name "wsl",
+  :block/created-at 1660099824777,
+  :block/updated-at 1660099824777}
+ {:block/name "zsh",
+  :block/created-at 1660100046743,
+  :block/updated-at 1660100046743}
  {:block/name "가상 돔 virtual dom",
   :block/created-at 1656700039385,
   :block/updated-at 1656700039385}
@@ -310,6 +388,15 @@
  {:block/name "누출",
   :block/created-at 1656771704234,
   :block/updated-at 1656771704234}
+ {:block/name "다음 행동",
+  :block/created-at 1660229912133,
+  :block/updated-at 1660229912133}
+ {:block/name "대화형",
+  :block/created-at 1660099007507,
+  :block/updated-at 1660099007507}
+ {:block/name "동적 타입 dynamic type",
+  :block/created-at 1660100279473,
+  :block/updated-at 1660100279473}
  {:block/name "매개변수를 이용한 주입",
   :block/created-at 1656698922779,
   :block/updated-at 1656698922779}
@@ -322,18 +409,33 @@
  {:block/name "소프트웨어 개발자 테스팅",
   :block/created-at 1656698105383,
   :block/updated-at 1656698117410}
+ {:block/name "수집함",
+  :block/created-at 1660229902910,
+  :block/updated-at 1660229902910}
  {:block/name "신뢰할 수 있는 소프트웨어 출시",
   :block/created-at 1656698019917,
   :block/updated-at 1656698027943}
+ {:block/name "실용주의 프로그래머",
+  :block/created-at 1660096780648,
+  :block/updated-at 1660097038624}
+ {:block/name "언어",
+  :block/created-at 1660099167032,
+  :block/updated-at 1660099167032}
+ {:block/name "언젠가",
+  :block/created-at 1660229927570,
+  :block/updated-at 1660229927570}
  {:block/name "이름을 이용한 주입",
   :block/created-at 1656698998483,
   :block/updated-at 1656698998483}
- {:block/name "터미널 terminal",
-  :block/created-at 1656699529529,
-  :block/updated-at 1656699529529}
- {:block/name "테스트의 분류",
-  :block/created-at 1656697278142,
-  :block/updated-at 1656697278142}
+ {:block/name "책",
+  :block/created-at 1660097038622,
+  :block/updated-at 1660097038622}
  {:block/name "프레임워크 없는 프런트엔드 개발",
-  :block/created-at 1656698045434, 
-  :block/updated-at 1656698083577}]
+  :block/created-at 1656698045434,
+  :block/updated-at 1656698083577}
+ {:block/name "프로젝트",
+  :block/created-at 1660229930575,
+  :block/updated-at 1660229930575}
+ {:block/name "플랫폼 flatform",
+  :block/created-at 1660098045068, 
+  :block/updated-at 1660098045068}]

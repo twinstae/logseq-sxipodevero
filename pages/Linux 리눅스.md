@@ -1,0 +1,1 @@
+- 리눅스는 [[Unix 유닉스]]기반의 [[Open Source 오픈소스]] [[Operating System 운영체제]]로
