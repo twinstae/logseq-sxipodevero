@@ -19,6 +19,9 @@
  {:block/name "aug 11th, 2022",
   :block/created-at 1660152707740,
   :block/updated-at 1660152707740}
+ {:block/name "aug 12th, 2022",
+  :block/created-at 1660230004318,
+  :block/updated-at 1660230004318}
  {:block/name "b",
   :block/created-at 1656696917898,
   :block/updated-at 1656696917898}
@@ -136,9 +139,12 @@
  {:block/name "golang 고랭",
   :block/created-at 1660139354157,
   :block/updated-at 1660139354157}
+ {:block/name "graph database 그래프 데이터베이스",
+  :block/created-at 1660231570049,
+  :block/updated-at 1660231570049}
  {:block/name "gtd",
   :block/created-at 1660229891767,
-  :block/updated-at 1660229931707}
+  :block/updated-at 1660231714092}
  {:block/name "gui",
   :block/created-at 1660097872915,
   :block/updated-at 1660097872915}
@@ -400,30 +406,48 @@
  {:block/name "매개변수를 이용한 주입",
   :block/created-at 1656698922779,
   :block/updated-at 1656698922779}
+ {:block/name "민주주의",
+  :block/created-at 1660231599107,
+  :block/updated-at 1660231599107}
  {:block/name "바인딩 binding",
   :block/created-at 1656698446812,
   :block/updated-at 1656698446812}
  {:block/name "생성자를 이용한 주입",
   :block/created-at 1656698932826,
   :block/updated-at 1656698932826}
+ {:block/name "소설 읽기와 쓰기",
+  :block/created-at 1660231633051,
+  :block/updated-at 1660231633051}
  {:block/name "소프트웨어 개발자 테스팅",
   :block/created-at 1656698105383,
   :block/updated-at 1656698117410}
+ {:block/name "수영",
+  :block/created-at 1660231632396,
+  :block/updated-at 1660231632396}
  {:block/name "수집함",
   :block/created-at 1660229902910,
-  :block/updated-at 1660229902910}
+  :block/updated-at 1660235820099}
+ {:block/name "시의 가치",
+  :block/created-at 1660231612651,
+  :block/updated-at 1660231612651}
  {:block/name "신뢰할 수 있는 소프트웨어 출시",
   :block/created-at 1656698019917,
   :block/updated-at 1656698027943}
  {:block/name "실용주의 프로그래머",
   :block/created-at 1660096780648,
   :block/updated-at 1660097038624}
+ {:block/name "실험 플랫폼",
+  :block/created-at 1660231590017,
+  :block/updated-at 1660231590017}
  {:block/name "언어",
   :block/created-at 1660099167032,
   :block/updated-at 1660099167032}
  {:block/name "언젠가",
   :block/created-at 1660229927570,
-  :block/updated-at 1660229927570}
+  :block/updated-at 1660231655511}
+ {:block/name "운동",
+  :block/created-at 1660231673188,
+  :block/updated-at 1660231673188}
  {:block/name "이름을 이용한 주입",
   :block/created-at 1656698998483,
   :block/updated-at 1656698998483}
@@ -435,7 +459,7 @@
   :block/updated-at 1656698083577}
  {:block/name "프로젝트",
   :block/created-at 1660229930575,
-  :block/updated-at 1660229930575}
+  :block/updated-at 1660231673189}
  {:block/name "플랫폼 flatform",
   :block/created-at 1660098045068, 
   :block/updated-at 1660098045068}]
