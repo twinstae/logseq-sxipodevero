@@ -382,6 +382,9 @@
  {:block/name "강타입 strongly typed",
   :block/created-at 1656698532241,
   :block/updated-at 1656698532241}
+ {:block/name "공공을 위한 노력에 보상을 준다",
+  :block/created-at 1660284417129,
+  :block/updated-at 1660284417129}
  {:block/name "기초부터 완성까지 프런트엔드",
   :block/created-at 1656698072336,
   :block/updated-at 1656698078105}
@@ -394,6 +397,9 @@
  {:block/name "누출",
   :block/created-at 1656771704234,
   :block/updated-at 1656771704234}
+ {:block/name "능률을 높여서, 투입되는 시간과 노력을 줄인다",
+  :block/created-at 1660284331619,
+  :block/updated-at 1660284331619}
  {:block/name "다음 행동",
   :block/created-at 1660229912133,
   :block/updated-at 1660229912133}
@@ -426,7 +432,10 @@
   :block/updated-at 1660231632396}
  {:block/name "수집함",
   :block/created-at 1660229902910,
-  :block/updated-at 1660269417223}
+  :block/updated-at 1660284173593}
+ {:block/name "시스템을 바꾸지 못하면 개인이 희생하게 된다.",
+  :block/created-at 1660284274579,
+  :block/updated-at 1660284274579}
  {:block/name "시의 가치",
   :block/created-at 1660231612651,
   :block/updated-at 1660231612651}
@@ -445,12 +454,21 @@
  {:block/name "언젠가",
   :block/created-at 1660229927570,
   :block/updated-at 1660231655511}
+ {:block/name "오픈소스 번역이 필요하다",
+  :block/created-at 1660283977166,
+  :block/updated-at 1660284751825}
+ {:block/name "외국어 공부",
+  :block/created-at 1660286100501,
+  :block/updated-at 1660286100501}
  {:block/name "운동",
   :block/created-at 1660231673188,
   :block/updated-at 1660231673188}
  {:block/name "이름을 이용한 주입",
   :block/created-at 1656698998483,
   :block/updated-at 1656698998483}
+ {:block/name "제 2언어",
+  :block/created-at 1660286100501,
+  :block/updated-at 1660286100501}
  {:block/name "책",
   :block/created-at 1660097038622,
   :block/updated-at 1660097038622}
@@ -461,5 +479,8 @@
   :block/created-at 1660229930575,
   :block/updated-at 1660231673189}
  {:block/name "플랫폼 flatform",
-  :block/created-at 1660098045068, 
-  :block/updated-at 1660098045068}]
+  :block/created-at 1660098045068,
+  :block/updated-at 1660098045068}
+ {:block/name "현재 지구의 패권 언어는 영어다.",
+  :block/created-at 1660284003181, 
+  :block/updated-at 1660284003181}]
