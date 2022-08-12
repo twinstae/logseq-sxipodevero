@@ -432,7 +432,7 @@
   :block/updated-at 1660231632396}
  {:block/name "수집함",
   :block/created-at 1660229902910,
-  :block/updated-at 1660284173593}
+  :block/updated-at 1660286999979}
  {:block/name "시스템을 바꾸지 못하면 개인이 희생하게 된다.",
   :block/created-at 1660284274579,
   :block/updated-at 1660284274579}
@@ -456,7 +456,7 @@
   :block/updated-at 1660231655511}
  {:block/name "오픈소스 번역이 필요하다",
   :block/created-at 1660283977166,
-  :block/updated-at 1660284751825}
+  :block/updated-at 1660286899176}
  {:block/name "외국어 공부",
   :block/created-at 1660286100501,
   :block/updated-at 1660286100501}
@@ -476,8 +476,8 @@
   :block/created-at 1656698045434,
   :block/updated-at 1656698083577}
  {:block/name "프로젝트",
-  :block/created-at 1660229930575,
-  :block/updated-at 1660231673189}
+  :block/created-at 1660287025501,
+  :block/updated-at 1660287025501}
  {:block/name "플랫폼 flatform",
   :block/created-at 1660098045068,
   :block/updated-at 1660098045068}
