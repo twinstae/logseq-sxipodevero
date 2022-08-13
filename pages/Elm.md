@@ -1,2 +1,2 @@
 - [공식 사이트](https://elm-lang.org/)
--
+- 엘름은 [[Functional 함수형]] 프로그래밍에 기반한 [[front-end 프런트 엔드]] [[Framework 프레임워크]]다.

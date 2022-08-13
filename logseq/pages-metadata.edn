@@ -25,6 +25,9 @@
  {:block/name "aug 13th, 2022",
   :block/created-at 1660318420438,
   :block/updated-at 1660318420438}
+ {:block/name "aug 14th, 2022",
+  :block/created-at 1660402804272,
+  :block/updated-at 1660402804272}
  {:block/name "b",
   :block/created-at 1656696917898,
   :block/updated-at 1656696917898}
@@ -115,6 +118,9 @@
  {:block/name "elixir 엘릭서",
   :block/created-at 1656696213693,
   :block/updated-at 1656696683425}
+ {:block/name "elm",
+  :block/created-at 1660402350026,
+  :block/updated-at 1660402856082}
  {:block/name "emulation 에뮬레이션",
   :block/created-at 1660098154600,
   :block/updated-at 1660098313578}
@@ -133,6 +139,9 @@
  {:block/name "framework 프레임워크",
   :block/created-at 1656698277669,
   :block/updated-at 1656698277669}
+ {:block/name "front-end 프런트 엔드",
+  :block/created-at 1660402853065,
+  :block/updated-at 1660402853065}
  {:block/name "functional 함수형",
   :block/created-at 1656696431376,
   :block/updated-at 1656763385677}
