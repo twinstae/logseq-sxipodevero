@@ -220,6 +220,9 @@
  {:block/name "native 네이티브",
   :block/created-at 1656698258809,
   :block/updated-at 1656698258809}
+ {:block/name "nextjs",
+  :block/created-at 1660402894554,
+  :block/updated-at 1660402902662}
  {:block/name "now",
   :block/created-at 1656696917898,
   :block/updated-at 1656696917898}
