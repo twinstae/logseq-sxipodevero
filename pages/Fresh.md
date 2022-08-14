@@ -1,0 +1,1 @@
+- 프레시는 [[Deno 디노]]와 [[Preact]]에 기반한 [[fullstack 풀스택]] [[Web 웹]] [[Framework 프레임워크]]다.
