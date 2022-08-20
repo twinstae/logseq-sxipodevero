@@ -22,6 +22,10 @@
 	- filter는 store에 들어가야 할 데이터 전처리 로직이지 범용적인 utils는 아닌듯.
 		- 데이터를 전처리한다면 correct_answer나 selected_answer도 카멜 케이스(corretAnsewr)로 처리해주면 좋았을듯.
 		- selected_answer는 서버에서 가져온 데이터가 아닌데. 이를 수정하기 위해 quizzes 전체를 불변으로 수정하는 것은, immer를 쓰더라도 안티 패턴임.
+	- win, lose는 차트와 맞힌 문제, 틀린 문제를 가져오는데. 이를 chart에 result로 넘겨줄 때 tuple로 넘겨주고 있음.
+		- tuple이라는 타입만 봐서는 result가 무엇인지 파악하기 어렵고. calcResult처럼 객체로 받는 게 좋을듯
+		- Chart와
+		-
 	- selector가 없이 quizzes 전체를 가져오고 있어서. quizzes 전체에 리렌더링이 일어나게 됨.
 		- 물론 한 번에 하나의 quiz만 보여주고. quiz의 개수도 많지 않아서, 성능 상의 문제는 크지 않지만. 무한 스크롤 같은 리스트였으면 성능 하락이 심각했을 것...
 		- 다음 로직은 quizzes[page]로 가져오기 보다는 전용 selector나 getter를 만들면 좋았을듯.
