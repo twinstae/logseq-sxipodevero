@@ -40,27 +40,31 @@
 		- aria-label이 있으면 스크린 리더는 퀴즈 문제 내용을 무시하게 됨. 내용은 읽어주지 않고 "퀴즈 문제"라는 라벨만 읽어서. 시각 장애인은 앱을 전혀 사용할 수가 없음.
 	- getBy는 스크린에 요소가 없으면 error를 던지기 때문에, toBeInTheDocument로 확인하는 건 불필요함. 보통은 기존에 있었던 요소가, dom에서 사라졌는지 확인할 때 사용함.
 - lint와 코드 스타일
+	-
+	- 예를 들어...
 	- chart는 win rose를 하나의 result로 받는데. 내려주는 입장에서 타입만 봐서는 용도를 추측하기 어려움.
+		- ![image.png](../assets/image_1660984437942_0.png)
+		- win lose로 따로 받는 것이 명확할듯.
 	- 삼항 연산자를 중첩하지 말라는 린트 규칙을 fragment로 우회한 이유는?
-	- 예를 들어... 다음처럼 바꿀 수 있을 것 같음
-	- ```jsx
-	  // before
-	  return (
-	    <>
-	      {isValidating ? (
-	        <Spinner />
-	      ) : (
-	        <>{isQuizzing ? <QuizView /> : <ResultView />}</>
-	      )}
-	      </>
-	  );
-	  
-	  // after
-	  if (isValidating) return <Spinner />;
-	  
-	  const isQuizzing = count !== page;
-	  return isQuizzing ? <QuizView /> : <ResultView />;
-	  ```
+		- 예를 들어... 다음처럼 바꿀 수 있을 것 같음
+		- ```jsx
+		  // before
+		  return (
+		    <>
+		      {isValidating ? (
+		        <Spinner />
+		      ) : (
+		        <>{isQuizzing ? <QuizView /> : <ResultView />}</>
+		      )}
+		      </>
+		  );
+		  
+		  // after
+		  if (isValidating) return <Spinner />;
+		  
+		  const isQuizzing = count !== page;
+		  return isQuizzing ? <QuizView /> : <ResultView />;
+		  ```
 - 프로젝트 구조
 	- 폴더 구조가 지나치게 복잡하진 않은지?
 	- 예를 들어 컴포넌트 하나를 만들려면...
