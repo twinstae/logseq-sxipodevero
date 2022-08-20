@@ -4,16 +4,26 @@
 	- 문제를 풀던 중에 뒤로가기를 누르면, 난이도 선택 메뉴로 돌아가서 위화감이 있음
 	- 그래도 전역 상태에 풀이 기록이 남아 있어서, 풀던 곳부터 다시 시작할 수 있는 점은 좋은듯
 - 상태 관리
-	- SWR을 사용하고 있는데, 데이터를 관리하는 게 fetcher로만 사용하고 있어서, useEffect를 쓰는 것과 차이를 모르겠음.
+	- SWR을 사용한 이유?
+		- 예를 들어...
+		- 페이지 최상단에서 fetcher로만 사용하고 있어서, useEffect를 쓰는 것과 차이를 모르겠음.
+		- useSWR이나 useQuery 같은 라이브러리에 컴포넌트가 직접 의존하는데. 한 번 커스텀 훅으로 감싸는 게 좋을듯?
+			- 예를 들어 count와 difficulty를 매개변수로 받는 훅이 되어야 할 것.
 	- 대부분의 로직을 setter로 노출하고 있는데...
 		- 상태 로직이 변하면 유지보수하기 어려울 것 같음.
 		- 보일러 플레이트가 많아짐
 		- 각 컴포넌트에서 너무 많은 메서드를 가져오게 됨
 		- 예를 들어 handleRestart나 handleReadMode 등은 상태 라이브러리에 메서드로 구현해서 공개하면 좋을듯
+	- useQuizStore에 상태도 너무 많고, 서로 무관한 것도 섞여 있음
+		- isReadMode와 startTime, endTime, page는 같이 변하지만 (Quiz 페이지에서 사용)
+		- count와 difficulty, quizzes는 하나의 세트 (option 페이지에서 사용)
+		- 분리하는 게 좋을듯!
+		- count와 difficulty는 query string에 들어 있어야 할 듯?
 	- filter는 store에 들어가야 할 데이터 전처리 로직이지 범용적인 utils는 아닌듯.
 		- 데이터를 전처리한다면 correct_answer나 selected_answer도 카멜 케이스(corretAnsewr)로 처리해주면 좋았을듯.
-	- selected_answer는 서버에서 가져온 데이터가 아닌데. 이를 수정하기 위해 quizzes 전체를 불변으로 수정하는 것은, immer를 쓰더라도 안티 패턴임.
-		- 특히 selector가 없이 quizzes 전체를 가져오고 있어서. quizzes 전체에 리렌더링이 일어나게 됨.
+		- selected_answer는 서버에서 가져온 데이터가 아닌데. 이를 수정하기 위해 quizzes 전체를 불변으로 수정하는 것은, immer를 쓰더라도 안티 패턴임.
+	- selector가 없이 quizzes 전체를 가져오고 있어서. quizzes 전체에 리렌더링이 일어나게 됨.
+		- 물론 한 번에 하나의 quiz만 보여주고. quiz의 개수도 많지 않아서, 성능 상의 문제는 크지 않지만. 무한 스크롤 같은 리스트였으면 성능 하락이 심각했을 것...
 		- 다음 로직은 quizzes[page]로 가져오기 보다는 전용 selector나 getter를 만들면 좋았을듯.
 			- ```tsx
 			  // before
@@ -40,11 +50,11 @@
 		- aria-label이 있으면 스크린 리더는 퀴즈 문제 내용을 무시하게 됨. 내용은 읽어주지 않고 "퀴즈 문제"라는 라벨만 읽어서. 시각 장애인은 앱을 전혀 사용할 수가 없음.
 	- getBy는 스크린에 요소가 없으면 error를 던지기 때문에, toBeInTheDocument로 확인하는 건 불필요함. 보통은 기존에 있었던 요소가, dom에서 사라졌는지 확인할 때 사용함.
 - lint와 코드 스타일
-	-
+	- 왜 airbnb와 규칙들을 도입했는지?
 	- 예를 들어...
-	- chart는 win rose를 하나의 result로 받는데. 내려주는 입장에서 타입만 봐서는 용도를 추측하기 어려움.
-		- ![image.png](../assets/image_1660984437942_0.png)
-		- win lose로 따로 받는 것이 명확할듯.
+		- chart는 win rose를 하나의 result로 받는데. 내려주는 입장에서 타입만 봐서는 용도를 추측하기 어려움.
+			- ![image.png](../assets/image_1660984437942_0.png)
+			- win lose로 따로 받는 것이 명확할듯.
 	- 삼항 연산자를 중첩하지 말라는 린트 규칙을 fragment로 우회한 이유는?
 		- 예를 들어... 다음처럼 바꿀 수 있을 것 같음
 		- ```tsx
@@ -167,6 +177,10 @@
 			  // eslint-disable-next-line react/prop-types
 			  function Input({ type, label, value, onChange, ...props }: Props) {
 			    const id = useId();
+			    // label을 id로 쓰면 안 됨.
+			    // 같은 label을 가진 컴포넌트가 있을 수 있기 때문
+			    // react18에서는 이런 id 연결을 위해 useId 훅을 도입함.
+			    
 			    return (
 			      <Label htmlFor={id}>
 			        {label}
