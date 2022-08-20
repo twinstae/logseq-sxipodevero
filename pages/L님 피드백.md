@@ -1,12 +1,3 @@
-- 프로젝트 구조
-	- 폴더 구조가 지나치게 복잡하진 않은지?
-	- 예를 들어 컴포넌트 하나를 만들려면...
-		- 폴더
-			- style
-			- 컴포넌트
-			- index.ts
-		- 파일 4개가 필요한데. 하나로 합쳐도 이상하지 않을듯함.
-		- 특히 components에 style이 없는 경우에도 폴더로 만든 이유는 무엇인지? (common)
 - 페이지 라우팅
 	- QuizView와 ResultView 는 하나의 quiz 라는 루트로 되어 있는데. 하나의 url 루트에서 삼항연산자로 처리되어서 위화감이 있음.
 	- 각 문제 step마다 별개의 route가 있어야 할듯.
@@ -68,20 +59,81 @@
 	  const isQuizzing = count !== page;
 	  return isQuizzing ? <QuizView /> : <ResultView />;
 	  ```
+- 프로젝트 구조
+	- 폴더 구조가 지나치게 복잡하진 않은지?
+	- 예를 들어 컴포넌트 하나를 만들려면...
+		- 폴더
+			- ()style)
+			- 컴포넌트
+			- index.ts
+		- 4개가지를 만들어야 하는데. 하나로 합쳐도 이상하지 않을듯함.
+		- 어떤 파일은 style이 나눠져 있지만, 대부분은 index에 .tsx만 있어서 일관적인 기준이 있는지도 궁금함... style이 없는 경우에도 폴더로 만든 이유는 무엇인지?
 - 스타일링
 	- 보면 중복되는 스타일이 많은데, emotion의 composition을 사용하지 않아서, 하드코딩된 부분이 많고. UI 일관성을 수동으로 유지해야함.
-	- 예를 들어
+	- 예를 들어 사용자 input의 라벨은 통일적이어야 할 것으로 기대하는데. 다음처럼 거의 똑같은 로직이 반복됨.
 		- ```jsx
-		  
-		  export const Label = styled.div`
-		    font-size: 2.4rem;
+		  // Selector.tsx
+		  const Label = styled.label`
+		    display: flex;
+		    flex-direction: column;
+		    gap: 5px;
+		    font-size: 2rem;
 		    font-weight: 900;
-		  `;
-		  const ButtonBase = styled.button<Props>`
-		    ...
-		    font-size: 2.4rem;
-		    font-weight: 500;
-		    ...
-		  `
 		  
+		    & select {
+		      width: 100%;
+		      padding: 10px;
+		      border: 1px solid black;
+		      border-radius: 5px;
+		      appearance: none;
+		    }
+		  `;
+		  // Input.tsx
+		  const Label = styled.label`
+		    display: flex;
+		    flex-direction: column;
+		    gap: 5px;
+		    font-size: 2rem;
+		    font-weight: 900;
+		  
+		    & input {
+		      width: 100%;
+		      padding: 10px;
+		      border: 1px solid black;
+		      border-radius: 5px;
+		    }
+		  `;
+		  ```
+		- common은 재사용성을 중시한 컴포넌트이니 만큼, composition을 해주면 좋았을듯함. 다음처럼 추출하고 합성할 수 있음.
+		- ```js
+		  // Selector.tsx
+		  const 
+		  
+		  const Label = styled.label`
+		    display: flex;
+		    flex-direction: column;
+		    gap: 5px;
+		    font-size: 2rem;
+		    font-weight: 900;
+		  
+		    & select {
+		  
+		      appearance: none;
+		    }
+		  `;
+		  // Input.tsx
+		  const Label = styled.label`
+		    display: flex;
+		    flex-direction: column;
+		    gap: 5px;
+		    font-size: 2rem;
+		    font-weight: 900;
+		  
+		    & input {
+		      width: 100%;
+		      padding: 10px;
+		      border: 1px solid black;
+		      border-radius: 5px;
+		    }
+		  `;
 		  ```
