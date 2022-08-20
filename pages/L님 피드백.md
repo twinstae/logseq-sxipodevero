@@ -38,7 +38,31 @@
 		    		{choices.map((choice, idx) => (
 		  ```
 - test
+	-
 	- 테스트를 나중에 추가했고, 화면에 무엇을 보여주는지 정도만 테스트하고 있는데. 들인 노력에 비해 효과는 크지 않은듯.
 	- aria-label은 textContent를 대체하는데. 텍스트가 있는 경우에는 aria-labelledBy를 사용해야 함
-		- 이러면 스크린 리더는 퀴즈 문제 내용을 읽어주지 않고 "퀴즈 문제"라는 글자만 읽어서. 시각 장애인은 앱을 전혀 사용할 수가 없음.
--
+		- aria-label이 있으면 스크린 리더는 퀴즈 문제 내용을 무시하게 됨. 내용은 읽어주지 않고 "퀴즈 문제"라는 라벨만 읽어서. 시각 장애인은 앱을 전혀 사용할 수가 없음.
+	- getBy는 스크린에 요소가 없으면 error를 던지기 때문에, toBeInTheDocument로 확인하는 건 불필요함.
+- lint와 코드 스타일
+	- 삼항 연산자를 중첩하지 말라는 린트 규칙을 fragment로 우회한 이유는?
+	- 예를 들어 다음처럼 바꿀 수 있을 것 같음
+	- ```jsx
+	  // before
+	  return (
+	    <>
+	      {isValidating ? (
+	        <Spinner />
+	      ) : (
+	        <>{isQuizzing ? <QuizView /> : <ResultView />}</>
+	      )}
+	      </>
+	  );
+	  
+	  // after
+	  if (isValidating) return <Spinner />;
+	  
+	  const isQuizzing = count !== page;
+	  return isQuizzing ? <QuizView /> : <ResultView />;
+	  ```
+- 스타일링
+	-
