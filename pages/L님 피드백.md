@@ -33,14 +33,16 @@
 			  ```
 - test
 	- 테스트를 나중에 추가했는데, 테스트로 어떤 이점이 있었는지?
+	- 예를 들어...
 		- 회귀 테스트는 리팩토링에 도움이 되는데. 테스트 후에 리팩토링을 한 커밋 로그가 없음
 		- 핵심 로직보다는, 화면에 무엇을 보여주는지 정도만 테스트하고 있는데. 들인 노력에 비해 효과는 크지 않은듯.
 	- aria-label은 textContent를 대체하는데. 텍스트가 있는 경우에는 aria-labelledBy를 사용해야 함
 		- aria-label이 있으면 스크린 리더는 퀴즈 문제 내용을 무시하게 됨. 내용은 읽어주지 않고 "퀴즈 문제"라는 라벨만 읽어서. 시각 장애인은 앱을 전혀 사용할 수가 없음.
 	- getBy는 스크린에 요소가 없으면 error를 던지기 때문에, toBeInTheDocument로 확인하는 건 불필요함. 보통은 기존에 있었던 요소가, dom에서 사라졌는지 확인할 때 사용함.
 - lint와 코드 스타일
+	- chart는 win rose를 하나의 result로 받는데. 내려주는 입장에서 타입만 봐서는 용도를 추측하기 어려움.
 	- 삼항 연산자를 중첩하지 말라는 린트 규칙을 fragment로 우회한 이유는?
-	- 예를 들어 다음처럼 바꿀 수 있을 것 같음
+	- 예를 들어... 다음처럼 바꿀 수 있을 것 같음
 	- ```jsx
 	  // before
 	  return (
@@ -69,71 +71,74 @@
 		- 4개가지를 만들어야 하는데. 하나로 합쳐도 이상하지 않을듯함.
 		- 어떤 파일은 style이 나눠져 있지만, 대부분은 index에 .tsx만 있어서 일관적인 기준이 있는지도 궁금함... style이 없는 경우에도 폴더로 만든 이유는 무엇인지?
 - 스타일링
-	- 보면 중복되는 스타일이 많은데, emotion의 composition을 사용하지 않아서, 하드코딩된 부분이 많고. UI 일관성을 수동으로 유지해야함.
-	- 예를 들어 사용자 input의 라벨은 통일적이어야 할 것으로 기대하는데. 다음처럼 거의 똑같은 로직이 반복됨.
-		- ```jsx
-		  // Selector.tsx
-		  const Label = styled.label`
-		    display: flex;
-		    flex-direction: column;
-		    gap: 5px;
-		    font-size: 2rem;
-		    font-weight: 900;
-		  
-		    & select {
-		      width: 100%;
-		      padding: 10px;
-		      border: 1px solid black;
-		      border-radius: 5px;
-		      appearance: none;
-		    }
-		  `;
-		  // Input.tsx
-		  const Label = styled.label`
-		    display: flex;
-		    flex-direction: column;
-		    gap: 5px;
-		    font-size: 2rem;
-		    font-weight: 900;
-		  
-		    & input {
-		      width: 100%;
-		      padding: 10px;
-		      border: 1px solid black;
-		      border-radius: 5px;
-		    }
-		  `;
-		  ```
-		- common은 재사용성을 중시한 컴포넌트이니 만큼, composition을 해주면 좋았을듯함. 다음처럼 추출하고 합성할 수 있음.
-		- ```js
-		  // Selector.tsx
-		  const 
-		  
-		  const Label = styled.label`
-		    display: flex;
-		    flex-direction: column;
-		    gap: 5px;
-		    font-size: 2rem;
-		    font-weight: 900;
-		  
-		    & select {
-		  
-		      appearance: none;
-		    }
-		  `;
-		  // Input.tsx
-		  const Label = styled.label`
-		    display: flex;
-		    flex-direction: column;
-		    gap: 5px;
-		    font-size: 2rem;
-		    font-weight: 900;
-		  
-		    & input {
-		      width: 100%;
-		      padding: 10px;
-		      border: 1px solid black;
-		      border-radius: 5px;
-		    }
-		  `;
-		  ```
+	- 왜 emotion을 사용했고 어떤 점이 좋았는지? 어떤 점이 불편했는지? 어떤 면을 개선하고 싶은지?
+	- 예를 들어...
+		- 보면 중복되는 스타일이 많은데, emotion의 composition을 사용하지 않아서, 하드코딩된 부분이 많고. UI 일관성을 수동으로 유지해야함.
+		- 예를 들어 사용자 input의 라벨은 통일적이어야 할 것으로 기대하는데. 다음처럼 거의 똑같은 로직이 반복됨.
+			- ```jsx
+			  // Selector.tsx
+			  const Label = styled.label`
+			    display: flex;
+			    flex-direction: column;
+			    gap: 5px;
+			    font-size: 2rem;
+			    font-weight: 900;
+			  
+			    & select {
+			      width: 100%;
+			      padding: 10px;
+			      border: 1px solid black;
+			      border-radius: 5px;
+			      appearance: none;
+			    }
+			  `;
+			  // Input.tsx
+			  const Label = styled.label`
+			    display: flex;
+			    flex-direction: column;
+			    gap: 5px;
+			    font-size: 2rem;
+			    font-weight: 900;
+			  
+			    & input {
+			      width: 100%;
+			      padding: 10px;
+			      border: 1px solid black;
+			      border-radius: 5px;
+			    }
+			  `;
+			  ```
+			- common은 재사용성을 중시한 컴포넌트이니 만큼, composition을 해주면 좋았을듯함. 다음처럼 추출하고 합성할 수 있음.
+			- ```js
+			  const LabelBase = css`
+			    display: flex;
+			    flex-direction: column;
+			    gap: 5px;
+			    font-size: 2rem;
+			    font-weight: 900;
+			  `;
+			  const InputBase = css`
+			    width: 100%;
+			    padding: 10px;
+			    border: 1px solid black;
+			    border-radius: 5px;
+			  `;
+			  
+			  // Selector.tsx
+			  const Label = styled.label`
+			    ${LabelBase}
+			  
+			    & select {
+			  	${InputBase}
+			      appearance: none;
+			    }
+			  `;
+			  // Input.tsx
+			  const Label = styled.label`
+			    ${LabelBase}
+			  
+			    & input {
+			  	${InputBase}
+			    }
+			  `;
+			  ```
