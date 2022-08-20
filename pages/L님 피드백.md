@@ -14,5 +14,16 @@
 	- 그래도 전역 상태에 풀이 기록이 남아 있어서, 풀던 곳부터 다시 시작할 수 있는 점은 좋은듯
 - 상태 관리
 	- SWR을 사용하고 있는데, 데이터를 관리하는 게 fetcher로만 사용하고 있어서, useEffect를 쓰는 것과 차이를 모르겠음.
-	- 모든 로직을 setter로 노출하고 있어서, 상태 로직이 변하면 유지보수하기 어려울 것 같음. 예를 들어 handleRestart나 handleReadMode, handle
--
+	- 대부분의 로직을 setter로 노출하고 있는데...
+		- 상태 로직이 변하면 유지보수하기 어려울 것 같음.
+		- 보일러 플레이트가 많아짐
+		- 각 컴포넌트에서 너무 많은 메서드를 가져오게 됨
+		- 예를 들어 handleRestart나 handleReadMode 등은 상태 라이브러리에 메서드로 구현해서 공개하면 좋을듯
+		-
+	- 다음 로직은 quizzes[page]로 가져올 거면 전용 selector나 getter를 만들면 좋았을듯.
+		- ```js
+		  const currentQuiz = quizzes[page];
+		  const answer = quizzes[page].correct_answer;
+		  const selected = quizzes[page].selected_answer;
+		  ```
+		-
