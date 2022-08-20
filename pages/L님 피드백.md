@@ -15,7 +15,7 @@
 	- selected_answer는 서버에서 가져온 데이터가 아닌데. 이를 수정하기 위해 quizzes 전체를 불변으로 수정하는 것은, immer를 쓰더라도 안티 패턴임.
 		- 특히 selector가 없이 quizzes 전체를 가져오고 있어서. quizzes 전체에 리렌더링이 일어나게 됨.
 		- 다음 로직은 quizzes[page]로 가져오기 보다는 전용 selector나 getter를 만들면 좋았을듯.
-			- ```js
+			- ```tsx
 			  // before
 			  const currentQuiz = quizzes[page];
 			  const answer = quizzes[page].correct_answer;
@@ -47,23 +47,27 @@
 		- win lose로 따로 받는 것이 명확할듯.
 	- 삼항 연산자를 중첩하지 말라는 린트 규칙을 fragment로 우회한 이유는?
 		- 예를 들어... 다음처럼 바꿀 수 있을 것 같음
-		- ```jsx
+		- ```tsx
 		  // before
-		  return (
-		    <>
-		      {isValidating ? (
-		        <Spinner />
-		      ) : (
-		        <>{isQuizzing ? <QuizView /> : <ResultView />}</>
-		      )}
-		      </>
-		  );
+		  function 어쩌구(){
+		    return (
+		      <>
+		        {isValidating ? (
+		          <Spinner />
+		        ) : (
+		          <>{isQuizzing ? <QuizView /> : <ResultView />}</>
+		        )}
+		        </>
+		    );
+		  }
 		  
 		  // after
-		  if (isValidating) return <Spinner />;
+		  function 어쩌구(){
+		    if (isValidating) return <Spinner />;
 		  
-		  const isQuizzing = count !== page;
-		  return isQuizzing ? <QuizView /> : <ResultView />;
+		    const isQuizzing = count !== page;
+		    return isQuizzing ? <QuizView /> : <ResultView />;
+		  }
 		  ```
 - 프로젝트 구조
 	- 폴더 구조가 지나치게 복잡하진 않은지?
@@ -74,7 +78,7 @@
 			- index.ts
 		- 4개가지를 만들어야 하는데. 하나로 합쳐도 이상하지 않을듯함.
 		- 어떤 파일은 style이 나눠져 있지만, 대부분은 index에 .tsx만 있어서 일관적인 기준이 있는지도 궁금함... style이 없는 경우에도 폴더로 만든 이유는 무엇인지?
-- 스타일링
+- 스타일링과 디자인 컴포넌트
 	- 왜 emotion을 사용했고 어떤 점이 좋았는지? 어떤 점이 불편했는지? 어떤 면을 개선하고 싶은지?
 	- 예를 들어...
 		- 보면 중복되는 스타일이 많은데, emotion의 composition을 사용하지 않아서, 하드코딩된 부분이 많고. UI 일관성을 수동으로 유지해야함.
@@ -113,7 +117,7 @@
 			  `;
 			  ```
 			- common은 재사용성을 중시한 컴포넌트이니 만큼, composition을 해주면 좋았을듯함. 다음처럼 추출하고 합성할 수 있음.
-			- ```js
+			- ```jsx
 			  const LabelBase = css`
 			    display: flex;
 			    flex-direction: column;
@@ -146,3 +150,30 @@
 			    }
 			  `;
 			  ```
+	- 컴포넌트의 타입은
+		- html의 native element를 감싼다면, 원래 html의 type을 그대로 reflection해주는 게 맞음.
+			- 예를 들어 input type은 string이 아님. string으로 만들면 자동완성이 되지 않음.
+			- ![image.png](../assets/image_1660985345869_0.png)
+			- 하지만 다음처럼 React의 input 타입을 그대로 반영해주면
+			- ![image.png](../assets/image_1660985391665_0.png)
+			- ```tsx
+			  type InputPropsT = React.ClassAttributes<HTMLInputElement> &
+			    React.InputHTMLAttributes<HTMLInputElement>;
+			  
+			  type Props = {
+			    label: string;
+			  } & InputPropsT;
+			  
+			  // eslint-disable-next-line react/prop-types
+			  function Input({ type, label, value, onChange, ...props }: Props) {
+			    const id = useId();
+			    return (
+			      <Label htmlFor={id}>
+			        {label}
+			        <input id={id} type={type} value={value} onChange={onChange} {...props} />
+			      </Label>
+			    );
+			  }
+			  ```
+			- 다음처럼 자동완성이 잘되는 것을 볼 수 있음
+			- ![image.png](../assets/image_1660985455200_0.png)
