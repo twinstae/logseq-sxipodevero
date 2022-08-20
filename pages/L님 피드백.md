@@ -22,8 +22,23 @@
 		-
 	- 다음 로직은 quizzes[page]로 가져올 거면 전용 selector나 getter를 만들면 좋았을듯.
 		- ```js
+		  // before
 		  const currentQuiz = quizzes[page];
 		  const answer = quizzes[page].correct_answer;
 		  const selected = quizzes[page].selected_answer;
+		  //...
+		  <S.Question aria-label="퀴즈 문제">{currentQuiz.question}</S.Question>
+		  	<ul>
+		    		{currentQuiz.choices.map((choice, idx) => (
+		  
+		  // after
+		  const { question, choices, answer, selected } = getQuiz(page)
+		  <S.Question aria-label="퀴즈 문제">{question}</S.Question>
+		  	<ul>
+		    		{choices.map((choice, idx) => (
 		  ```
-		-
+- test
+	- 테스트를 나중에 추가했고, 화면에 무엇을 보여주는지 정도만 테스트하고 있는데. 들인 노력에 비해 효과는 크지 않은듯.
+	- aria-label은 textContent를 대체하는데. 텍스트가 있는 경우에는 aria-labelledBy를 사용해야 함
+		- 이러면 스크린 리더는 퀴즈 문제 내용을 읽어주지 않고 "퀴즈 문제"라는 글자만 읽어서. 시각 장애인은 앱을 전혀 사용할 수가 없음.
+-
