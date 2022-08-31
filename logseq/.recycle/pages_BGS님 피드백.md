@@ -1,13 +1,20 @@
 - ## 회고와 학습에 대하여
 - 하나씩 구체적으로 도전해보고 계셔서 좋음!
-	-
 - 회고 쓸 시간 확보는 아주 좋음... 늦게 쓰고 늦게 주무시지 않기를 바랍니다.
-	-
+- 시행착오의 과정을 업무하시면서 적어주시면 좋겠음!
+	- 어떻게 검색해보고 뭐가 나와서 어떻게 해봤더니 어떻게 되었다는 식으로?
 - ## 기술 질문
 - react-query의 상태 관리 방법?
 	- react-query는 캐시로 응답을 저장하고 서로 다른 컴포넌트는 캐시를 읽어오기만 함!
 	- 로딩 상태는 isLoading + isError와 state 중에 원하는 걸 쓰시면 됩니다.
 		- 기존에 api를 요청해주는 함수(fetcher)는 실패했을 때 에러를 던지게 만들어야 isError가 작동합니다!
+- api 요청은 어떻게?
+	- api client 관리하는 모범 사례(best practice)가 있으니. 알려드릴게요! react query랑 연결해서 커스텀 훅 찍어내는 법도 알려드릴게요.
+- react의 jsx?
+	- `<Provider value={store}><Test>...</Test></Provider>` 같은 코드는 다음처럼 번역됩니다.
+	- React.createElement(Provider, { value: store }, React.createElement(Test, {}, ...))
+	- https://ko.reactjs.org/docs/jsx-in-depth.html
+	-
 - 커스텀 훅은 컴포넌트에서 로직을 추출해서, 외부에서 주입하는 도구임!
 	- 재사용하는 경우가 많지 않다면 컴포넌트랑 같은 파일에 두고.
 	- 재사용하게 된다면 외부 파일에 분리해 넣으면 좋음
@@ -21,3 +28,4 @@
 	- map, filter, reduce, slice, flat 같은 array 메서드로 충분할 수도 있습니다.
 	- 이 부분은 같이 다뤄봅시다!
 - 테스팅
+	- 같이 해봅시다!
