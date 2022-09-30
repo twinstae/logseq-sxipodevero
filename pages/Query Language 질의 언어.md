@@ -1,0 +1,3 @@
+- 쿼리 언어는 보통 [[Database 데이터베이스]] 등의 데이터를 읽고 조작하기 위한 [[Domain Specific Language 도메인 특화 언어]]입니다.
+-
+-

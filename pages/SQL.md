@@ -1,0 +1,2 @@
+- SQL은 [[Relational Database 관계형 데이터베이스]]들의 표준 쿼리 언어입니다.
+-
