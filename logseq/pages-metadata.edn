@@ -70,6 +70,9 @@
  {:block/name "book",
   :block/created-at 1656698027942,
   :block/updated-at 1656698027942}
+ {:block/name "bottle neck 병목",
+  :block/created-at 1664507492318,
+  :block/updated-at 1664507492318}
  {:block/name "boundary 경계",
   :block/created-at 1656697082285,
   :block/updated-at 1656697082285}
@@ -124,6 +127,9 @@
  {:block/name "csr 클라이언트 사이드 렌더링",
   :block/created-at 1656699733820,
   :block/updated-at 1656699733820}
+ {:block/name "database 데이터베이스",
+  :block/created-at 1664507200764,
+  :block/updated-at 1664507200764}
  {:block/name "declarative 선언적",
   :block/created-at 1656698593057,
   :block/updated-at 1656771502506}
@@ -142,6 +148,9 @@
  {:block/name "doing",
   :block/created-at 1656696917897,
   :block/updated-at 1656696917897}
+ {:block/name "domain specific language 도메인 특화 언어",
+  :block/created-at 1664507682711,
+  :block/updated-at 1664507682711}
  {:block/name "done",
   :block/created-at 1656696917898,
   :block/updated-at 1656696917898}
@@ -195,7 +204,7 @@
   :block/updated-at 1660139354157}
  {:block/name "graph database 그래프 데이터베이스",
   :block/created-at 1660231570049,
-  :block/updated-at 1660231570049}
+  :block/updated-at 1664507340518}
  {:block/name "gtd",
   :block/created-at 1660229891767,
   :block/updated-at 1660231714092}
@@ -211,12 +220,18 @@
  {:block/name "in-progress",
   :block/created-at 1656696917898,
   :block/updated-at 1656696917898}
+ {:block/name "index 색인",
+  :block/created-at 1664507492317,
+  :block/updated-at 1664507492317}
  {:block/name "interactive 상호작용적",
   :block/created-at 1660098994063,
   :block/updated-at 1660099007509}
  {:block/name "interface 인터페이스",
   :block/created-at 1656696974031,
   :block/updated-at 1660097639345}
+ {:block/name "intergrity 무결성",
+  :block/created-at 1664507402857,
+  :block/updated-at 1664507402857}
  {:block/name "interpreter 인터프리터",
   :block/created-at 1660100279473,
   :block/updated-at 1660100279473}
@@ -265,6 +280,12 @@
  {:block/name "nextjs",
   :block/created-at 1660402894554,
   :block/updated-at 1660402902662}
+ {:block/name "normalization 정규화",
+  :block/created-at 1664507343879,
+  :block/updated-at 1664507343879}
+ {:block/name "nosql",
+  :block/created-at 1664507200765,
+  :block/updated-at 1664507560594}
  {:block/name "now",
   :block/created-at 1656696917898,
   :block/updated-at 1656696917898}
@@ -307,6 +328,9 @@
  {:block/name "python 파이썬",
   :block/created-at 1656696776681,
   :block/updated-at 1656696796926}
+ {:block/name "query language 질의 언어",
+  :block/created-at 1664507600442,
+  :block/updated-at 1664507687237}
  {:block/name "react native 리액트 네이티브",
   :block/created-at 1656698226888,
   :block/updated-at 1656698300083}
@@ -316,6 +340,9 @@
  {:block/name "reactive 반응형",
   :block/created-at 1656700105543,
   :block/updated-at 1656700105543}
+ {:block/name "relational database 관계형 데이터베이스",
+  :block/created-at 1664507245922,
+  :block/updated-at 1664507600443}
  {:block/name "repl",
   :block/created-at 1660098287458,
   :block/updated-at 1660099348259}
@@ -352,6 +379,9 @@
  {:block/name "sep 22nd, 2022",
   :block/created-at 1663830140452,
   :block/updated-at 1663830140452}
+ {:block/name "sep 30th, 2022",
+  :block/created-at 1664506752637,
+  :block/updated-at 1664506994750}
  {:block/name "sep 5th, 2022",
   :block/created-at 1662351418913,
   :block/updated-at 1662351418913}
@@ -379,6 +409,9 @@
  {:block/name "spec 명세",
   :block/created-at 1656699645036,
   :block/updated-at 1656699645036}
+ {:block/name "sql",
+  :block/created-at 1664507600442,
+  :block/updated-at 1664507619395}
  {:block/name "ssr 서버 사이드 렌더링",
   :block/created-at 1656699724100,
   :block/updated-at 1656699724100}
@@ -399,7 +432,7 @@
   :block/updated-at 1656699838327}
  {:block/name "sxipo de vero 진리의 배",
   :block/created-at 1656696172382,
-  :block/updated-at 1660229404249}
+  :block/updated-at 1664507949256}
  {:block/name "terminal 터미널",
   :block/created-at 1660098873583,
   :block/updated-at 1660098873583}
@@ -481,6 +514,12 @@
  {:block/name "공공을 위한 노력에 보상을 준다",
   :block/created-at 1660284417129,
   :block/updated-at 1660284417129}
+ {:block/name "관계 대수",
+  :block/created-at 1664507375843,
+  :block/updated-at 1664507375843}
+ {:block/name "관계형 데이터베이스의 relation은 테이블이지, 테이블 간의 연관관계가 아니다",
+  :block/created-at 1664507291150,
+  :block/updated-at 1664507291150}
  {:block/name "기초부터 완성까지 프런트엔드",
   :block/created-at 1656698072336,
   :block/updated-at 1656698078105}
