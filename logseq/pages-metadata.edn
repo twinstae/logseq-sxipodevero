@@ -10,6 +10,9 @@
  {:block/name "assertion 단언",
   :block/created-at 1660097618376,
   :block/updated-at 1660097618376}
+ {:block/name "ast 추상 구문 트리",
+  :block/created-at 1664632160254,
+  :block/updated-at 1664632160254}
  {:block/name "astro 아스트로",
   :block/created-at 1656699591632,
   :block/updated-at 1660402932260}
@@ -295,6 +298,12 @@
  {:block/name "ocaml 오카믈",
   :block/created-at 1656698519189,
   :block/updated-at 1656698519189}
+ {:block/name "oct 1st, 2022",
+  :block/created-at 1664629919949,
+  :block/updated-at 1664629919949}
+ {:block/name "oct 2nd, 2022",
+  :block/created-at 1664636404479,
+  :block/updated-at 1664636404479}
  {:block/name "open source 오픈소스",
   :block/created-at 1660100105108,
   :block/updated-at 1660100105108}
@@ -325,6 +334,9 @@
  {:block/name "pure function 순수 함수",
   :block/created-at 1656696484516,
   :block/updated-at 1656696618674}
+ {:block/name "pwa 점진적 웹앱",
+  :block/created-at 1664631612067,
+  :block/updated-at 1664631612067}
  {:block/name "python 파이썬",
   :block/created-at 1656696776681,
   :block/updated-at 1656696796926}
@@ -526,6 +538,9 @@
  {:block/name "나",
   :block/created-at 1660488457809,
   :block/updated-at 1660488819177}
+ {:block/name "내 성장의 지도",
+  :block/created-at 1664630985181,
+  :block/updated-at 1664634740580}
  {:block/name "노드js node.js",
   :block/created-at 1656771971956,
   :block/updated-at 1656771971956}
@@ -559,6 +574,9 @@
  {:block/name "생성자를 이용한 주입",
   :block/created-at 1656698932826,
   :block/updated-at 1656698932826}
+ {:block/name "세상은 추상에서 구체로 유도되지 않는다",
+  :block/created-at 1664630051809,
+  :block/updated-at 1664630051809}
  {:block/name "소설 읽기와 쓰기",
   :block/created-at 1660231633051,
   :block/updated-at 1660231633051}
@@ -597,7 +615,7 @@
   :block/updated-at 1660099167032}
  {:block/name "언젠가",
   :block/created-at 1660229927570,
-  :block/updated-at 1660231655511}
+  :block/updated-at 1664638561473}
  {:block/name "오픈소스 번역이 필요하다",
   :block/created-at 1660283977166,
   :block/updated-at 1660286899176}
@@ -619,6 +637,9 @@
  {:block/name "제 2언어",
   :block/created-at 1660286100501,
   :block/updated-at 1660286100501}
+ {:block/name "지평선",
+  :block/created-at 1664629933912,
+  :block/updated-at 1664631530886}
  {:block/name "책",
   :block/created-at 1660097038622,
   :block/updated-at 1660097038622}
