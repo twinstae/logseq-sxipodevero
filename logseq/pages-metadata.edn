@@ -304,6 +304,9 @@
  {:block/name "oct 2nd, 2022",
   :block/created-at 1664636404479,
   :block/updated-at 1664636404479}
+ {:block/name "oct 3rd, 2022",
+  :block/created-at 1664722801419,
+  :block/updated-at 1664722801419}
  {:block/name "open source 오픈소스",
   :block/created-at 1660100105108,
   :block/updated-at 1660100105108}
@@ -540,7 +543,7 @@
   :block/updated-at 1660488819177}
  {:block/name "내 성장의 지도",
   :block/created-at 1664630985181,
-  :block/updated-at 1664634740580}
+  :block/updated-at 1664725454055}
  {:block/name "노드js node.js",
   :block/created-at 1656771971956,
   :block/updated-at 1656771971956}
@@ -615,7 +618,7 @@
   :block/updated-at 1660099167032}
  {:block/name "언젠가",
   :block/created-at 1660229927570,
-  :block/updated-at 1664638561473}
+  :block/updated-at 1664720763161}
  {:block/name "오픈소스 번역이 필요하다",
   :block/created-at 1660283977166,
   :block/updated-at 1660286899176}
