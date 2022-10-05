@@ -1,6 +1,16 @@
-[{:block/name "a",
+[{:block/name
+  "@julia를 만든  stefan karpinski는 quora에서 lisp에 근접한 언어가 무엇이냐는 질문에, julia는 매우 lisp스럽다고 답하기도 했다.",
+  :block/created-at 1664962022179,
+  :block/updated-at 1664962022179}
+ {:block/name "a",
   :block/created-at 1656696917897,
   :block/updated-at 1656696917897}
+ {:block/name "abstract",
+  :block/created-at 1664962022219,
+  :block/updated-at 1664962022219}
+ {:block/name "access-date",
+  :block/created-at 1664962022198,
+  :block/updated-at 1664962022198}
  {:block/name "actor 액터",
   :block/created-at 1656696285037,
   :block/updated-at 1656696285037}
@@ -16,6 +26,9 @@
  {:block/name "astro 아스트로",
   :block/created-at 1656699591632,
   :block/updated-at 1660402932260}
+ {:block/name "attachments",
+  :block/created-at 1664962022626,
+  :block/updated-at 1664962022626}
  {:block/name "aug 10th, 2022",
   :block/created-at 1660093356036,
   :block/updated-at 1660112613964}
@@ -184,6 +197,9 @@
  {:block/name "favorites",
   :block/created-at 1656696917897,
   :block/updated-at 1656696917897}
+ {:block/name "fortran 포트란",
+  :block/created-at 1664961938359,
+  :block/updated-at 1664961938359}
  {:block/name "framework 프레임워크",
   :block/created-at 1656698277669,
   :block/updated-at 1656698277669}
@@ -244,24 +260,45 @@
  {:block/name "ionic 아이오닉",
   :block/created-at 1656698186898,
   :block/updated-at 1656698383870}
+ {:block/name "item-type",
+  :block/created-at 1664962022197,
+  :block/updated-at 1664962022197}
  {:block/name "javascript 자바스크립트",
   :block/created-at 1656697247439,
   :block/updated-at 1656697247439}
  {:block/name "jest 제스트",
   :block/created-at 1660155730070,
   :block/updated-at 1660155730070}
+ {:block/name "jit",
+  :block/created-at 1664961890844,
+  :block/updated-at 1664961890844}
  {:block/name "jul 2nd, 2022",
   :block/created-at 1656695721430,
   :block/updated-at 1660118286912}
+ {:block/name "julia",
+  :block/created-at 1664961875808,
+  :block/updated-at 1664962022979}
+ {:block/name "language",
+  :block/created-at 1664962022200,
+  :block/updated-at 1664962022200}
  {:block/name "later",
   :block/created-at 1656696917897,
   :block/updated-at 1656696917897}
  {:block/name "library 라이브러리",
   :block/created-at 1656698383860,
   :block/updated-at 1656698383860}
+ {:block/name "links",
+  :block/created-at 1664962022201,
+  :block/updated-at 1664962022201}
  {:block/name "linux 리눅스",
   :block/created-at 1660098193524,
   :block/updated-at 1660100118901}
+ {:block/name "lisp 리스프",
+  :block/created-at 1664961969649,
+  :block/updated-at 1664961969649}
+ {:block/name "llvm",
+  :block/created-at 1664961938360,
+  :block/updated-at 1664961938360}
  {:block/name "lua 루아",
   :block/created-at 1660139448046,
   :block/updated-at 1660139448046}
@@ -307,6 +344,9 @@
  {:block/name "oct 3rd, 2022",
   :block/created-at 1664722801419,
   :block/updated-at 1664722801419}
+ {:block/name "oct 5th, 2022",
+  :block/created-at 1664960883990,
+  :block/updated-at 1664960883990}
  {:block/name "open source 오픈소스",
   :block/created-at 1660100105108,
   :block/updated-at 1660100105108}
@@ -316,6 +356,12 @@
  {:block/name "operating system 운영체제",
   :block/created-at 1656696416651,
   :block/updated-at 1656696416651}
+ {:block/name "original-title",
+  :block/created-at 1664962022199,
+  :block/updated-at 1664962022199}
+ {:block/name "parser 파서",
+  :block/created-at 1664961984366,
+  :block/updated-at 1664961984366}
  {:block/name "partial hydration 파셜 하이드레이션",
   :block/created-at 1656700224363,
   :block/updated-at 1656700224363}
@@ -373,6 +419,9 @@
  {:block/name "rust 러스트",
   :block/created-at 1656771981154,
   :block/updated-at 1656771981154}
+ {:block/name "scheme 스킴",
+  :block/created-at 1664962022977,
+  :block/updated-at 1664962022977}
  {:block/name "seo 검색 엔진 최적화",
   :block/created-at 1656699712171,
   :block/updated-at 1656699712171}
@@ -412,6 +461,9 @@
  {:block/name "shell 셸",
   :block/created-at 1660099397264,
   :block/updated-at 1660099397264}
+ {:block/name "short-title",
+  :block/created-at 1664962022200,
+  :block/updated-at 1664962022200}
  {:block/name "shortcut 단축키",
   :block/created-at 1660099646760,
   :block/updated-at 1660099646760}
@@ -475,6 +527,9 @@
  {:block/name "unix 유닉스",
   :block/created-at 1660100026497,
   :block/updated-at 1660100026497}
+ {:block/name "url",
+  :block/created-at 1664962022200,
+  :block/updated-at 1664962022200}
  {:block/name "user 사용자",
   :block/created-at 1656697035160,
   :block/updated-at 1656697035160}
@@ -505,6 +560,12 @@
  {:block/name "web 웹",
   :block/created-at 1660100279473,
   :block/updated-at 1660100279473}
+ {:block/name "webpage",
+  :block/created-at 1664962022188,
+  :block/updated-at 1664962022188}
+ {:block/name "website-title",
+  :block/created-at 1664962022194,
+  :block/updated-at 1664962022194}
  {:block/name "windows 윈도우즈",
   :block/created-at 1660099870338,
   :block/updated-at 1660099870338}
@@ -618,7 +679,7 @@
   :block/updated-at 1660099167032}
  {:block/name "언젠가",
   :block/created-at 1660229927570,
-  :block/updated-at 1664763979426}
+  :block/updated-at 1664961875809}
  {:block/name "오픈소스 번역이 필요하다",
   :block/created-at 1660283977166,
   :block/updated-at 1660286899176}
