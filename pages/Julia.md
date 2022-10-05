@@ -1,0 +1,4 @@
+- 줄리아는 [[JIT]] 컴파일과 [[LLVM]]을 이용해 [[C]]나 [[Fortran 포트란]]에 준하는 성능을 내는 [[동적 타입 Dynamic Type]] [[Programming Language 프로그래밍 언어]]다.
+- Julia는 [[Lisp 리스프]]를 비롯해 여러 동적 타입 언어의 영향을 받았다.
+	- Julia의 [[Parser 파서]]는 [[Lisp 리스프]]의 방언인 [[Scheme 스킴]]으로 만들어졌다. [[@Julia를 만든  Stefan Karpinski는 Quora에서 Lisp에 근접한 언어가 무엇이냐는 질문에, Julia는 매우 Lisp스럽다고 답하기도 했다.]]
+-

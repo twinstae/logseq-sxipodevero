@@ -224,6 +224,7 @@
  ;; Enable all your properties to have corresponding pages
  :property-pages/enabled? true
  :ui/show-brackets? false
+ :zotero/settings-v2 {"default" {:type-id "10224100", :zotero-linked-attachment-base-directory "", :attachments-block-text "[[Attachments]]", :notes-block-text "[[Notes]]"}}
 
  ;; Properties to exclude from having property pages
  ;; E.g.:property-pages/excludelist #{:duration :author}
