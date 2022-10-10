@@ -1,0 +1,3 @@
+-
+	- [The Inclusive Design Guide](https://guide.inclusivedesign.ca/)
+	- [[Inclusive Learning Design Handbook]]

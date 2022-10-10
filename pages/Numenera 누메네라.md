@@ -1,0 +1,3 @@
+- 누메네라는 몬테 쿡이 만든 SF 판타지 TRPG다.
+- https://youtu.be/z1JHv_6ei_k
+-
