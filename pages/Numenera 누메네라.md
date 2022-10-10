@@ -1,3 +1,9 @@
 - 누메네라는 몬테 쿡이 만든 SF 판타지 TRPG다.
-- https://youtu.be/z1JHv_6ei_k
--
+- [Numenera: Bearing the Light Session 1](https://youtu.be/z1JHv_6ei_k)
+- 나는...
+	- 혼자서 시뮬레이션 하기
+		- 소설 쓰기
+		- 시나리오 쓰기
+	- 주사위 사기
+	- 간단한 플랫폼과 시트 만들기
+	- 같이 할 사람 찾기
