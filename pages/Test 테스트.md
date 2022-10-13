@@ -1,1 +1,13 @@
 - 어떤 프로그램이 기대하는 [[Interface 인터페이스]]대로 동작하는지 검증하는 프로그램을 말합니다.
+-
+- 탐험적 테스팅
+- unit
+- component
+- integration
+- type
+- assertion
+- contract
+- model based testing
+- cucumber
+- property based testing
+- stryker
