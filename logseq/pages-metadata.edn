@@ -11,6 +11,9 @@
  {:block/name "access-date",
   :block/created-at 1664962022198,
   :block/updated-at 1664962022198}
+ {:block/name "accessibility 접근성",
+  :block/created-at 1665366617284,
+  :block/updated-at 1665366635041}
  {:block/name "actor 액터",
   :block/created-at 1656696285037,
   :block/updated-at 1656696285037}
@@ -161,6 +164,9 @@
  {:block/name "design by contract 계약에 따른 설계",
   :block/created-at 1656699645034,
   :block/updated-at 1660097743552}
+ {:block/name "design system 디자인 시스템",
+  :block/created-at 1665365908881,
+  :block/updated-at 1665365941653}
  {:block/name "doing",
   :block/created-at 1656696917897,
   :block/updated-at 1656696917897}
@@ -226,10 +232,14 @@
   :block/updated-at 1664507340518}
  {:block/name "gtd",
   :block/created-at 1660229891767,
-  :block/updated-at 1660231714092}
+  :block/updated-at 1665364490206}
  {:block/name "gui",
   :block/created-at 1660097872915,
   :block/updated-at 1660097872915}
+ {:block/name
+  "https://developer.mozilla.org/en-us/docs/web/api/webrtc_api",
+  :block/created-at 1665366247581,
+  :block/updated-at 1665366247581}
  {:block/name "imperative 명령형",
   :block/created-at 1656771493385,
   :block/updated-at 1656771714694}
@@ -239,6 +249,9 @@
  {:block/name "in-progress",
   :block/created-at 1656696917898,
   :block/updated-at 1656696917898}
+ {:block/name "inclusive learning design handbook",
+  :block/created-at 1665365563606,
+  :block/updated-at 1665365564810}
  {:block/name "index 색인",
   :block/created-at 1664507492317,
   :block/updated-at 1664507492317}
@@ -329,12 +342,18 @@
  {:block/name "now",
   :block/created-at 1656696917898,
   :block/updated-at 1656696917898}
+ {:block/name "numenera 누메네라",
+  :block/created-at 1665366119872,
+  :block/updated-at 1665377186521}
  {:block/name "object oriented 객체지향",
   :block/created-at 1656696702219,
   :block/updated-at 1656696702219}
  {:block/name "ocaml 오카믈",
   :block/created-at 1656698519189,
   :block/updated-at 1656698519189}
+ {:block/name "oct 10th, 2022",
+  :block/created-at 1665364296725,
+  :block/updated-at 1665364296725}
  {:block/name "oct 1st, 2022",
   :block/created-at 1664629919949,
   :block/updated-at 1664629919949}
@@ -350,6 +369,9 @@
  {:block/name "oct 7th, 2022",
   :block/created-at 1665125872452,
   :block/updated-at 1665125872452}
+ {:block/name "one ui design guide",
+  :block/created-at 1665365931540,
+  :block/updated-at 1665366044092}
  {:block/name "open source 오픈소스",
   :block/created-at 1660100105108,
   :block/updated-at 1660100105108}
@@ -413,6 +435,9 @@
  {:block/name "rescript 리스크립트",
   :block/created-at 1656698480488,
   :block/updated-at 1656698537541}
+ {:block/name "rpg platform",
+  :block/created-at 1665377186521,
+  :block/updated-at 1665387995898}
  {:block/name "ruby 루비",
   :block/created-at 1656696313581,
   :block/updated-at 1656696707452}
@@ -557,6 +582,9 @@
  {:block/name "waiting",
   :block/created-at 1656696917897,
   :block/updated-at 1656696917897}
+ {:block/name "web standard 웹 표준",
+  :block/created-at 1665366300597,
+  :block/updated-at 1665366300597}
  {:block/name "web view 웹 뷰",
   :block/created-at 1656698416715,
   :block/updated-at 1656698416715}
@@ -566,6 +594,9 @@
  {:block/name "webpage",
   :block/created-at 1664962022188,
   :block/updated-at 1664962022188}
+ {:block/name "webrtc",
+  :block/created-at 1665366240780,
+  :block/updated-at 1665366307262}
  {:block/name "website-title",
   :block/created-at 1664962022194,
   :block/updated-at 1664962022194}
@@ -605,9 +636,9 @@
  {:block/name "나",
   :block/created-at 1660488457809,
   :block/updated-at 1660488819177}
- {:block/name "내 성장의 지도",
-  :block/created-at 1664630985181,
-  :block/updated-at 1664725454055}
+ {:block/name "나를 위한, 커스텀하기 쉬운 trpg 세션 방",
+  :block/created-at 1665366212953,
+  :block/updated-at 1665366240780}
  {:block/name "노드js node.js",
   :block/created-at 1656771971956,
   :block/updated-at 1656771971956}
@@ -620,9 +651,6 @@
  {:block/name "능률을 높여서, 투입되는 시간과 노력을 줄인다",
   :block/created-at 1660284331619,
   :block/updated-at 1660284331619}
- {:block/name "다음 행동",
-  :block/created-at 1660229912133,
-  :block/updated-at 1660229912133}
  {:block/name "대화형",
   :block/created-at 1660099007507,
   :block/updated-at 1660099007507}
@@ -658,7 +686,7 @@
   :block/updated-at 1660231632396}
  {:block/name "수집함",
   :block/created-at 1660229902910,
-  :block/updated-at 1660286999979}
+  :block/updated-at 1665366630033}
  {:block/name "시스템을 바꾸지 못하면 개인이 희생하게 된다.",
   :block/created-at 1660284274579,
   :block/updated-at 1660284274579}
@@ -682,7 +710,7 @@
   :block/updated-at 1660099167032}
  {:block/name "언젠가",
   :block/created-at 1660229927570,
-  :block/updated-at 1664961875809}
+  :block/updated-at 1665364796238}
  {:block/name "오픈소스 번역이 필요하다",
   :block/created-at 1660283977166,
   :block/updated-at 1660286899176}
@@ -718,7 +746,7 @@
   :block/updated-at 1656698083577}
  {:block/name "프로젝트",
   :block/created-at 1660287025501,
-  :block/updated-at 1660287025501}
+  :block/updated-at 1665375992578}
  {:block/name "플랫폼 flatform",
   :block/created-at 1660098045068,
   :block/updated-at 1660098045068}
