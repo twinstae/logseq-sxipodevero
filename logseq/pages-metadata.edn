@@ -232,7 +232,7 @@
   :block/updated-at 1664507340518}
  {:block/name "gtd",
   :block/created-at 1660229891767,
-  :block/updated-at 1665364490206}
+  :block/updated-at 1665625866180}
  {:block/name "gui",
   :block/created-at 1660097872915,
   :block/updated-at 1660097872915}
@@ -354,6 +354,9 @@
  {:block/name "oct 10th, 2022",
   :block/created-at 1665364296725,
   :block/updated-at 1665364296725}
+ {:block/name "oct 13th, 2022",
+  :block/created-at 1665622695746,
+  :block/updated-at 1665622695746}
  {:block/name "oct 1st, 2022",
   :block/created-at 1664629919949,
   :block/updated-at 1664629919949}
@@ -686,7 +689,7 @@
   :block/updated-at 1660231632396}
  {:block/name "수집함",
   :block/created-at 1660229902910,
-  :block/updated-at 1665366630033}
+  :block/updated-at 1665625860001}
  {:block/name "시스템을 바꾸지 못하면 개인이 희생하게 된다.",
   :block/created-at 1660284274579,
   :block/updated-at 1660284274579}
@@ -710,7 +713,7 @@
   :block/updated-at 1660099167032}
  {:block/name "언젠가",
   :block/created-at 1660229927570,
-  :block/updated-at 1665364796238}
+  :block/updated-at 1665623184581}
  {:block/name "오픈소스 번역이 필요하다",
   :block/created-at 1660283977166,
   :block/updated-at 1660286899176}
@@ -734,7 +737,7 @@
   :block/updated-at 1660286100501}
  {:block/name "지평선",
   :block/created-at 1664629933912,
-  :block/updated-at 1664631530886}
+  :block/updated-at 1665625876704}
  {:block/name "책",
   :block/created-at 1660097038622,
   :block/updated-at 1660097038622}
@@ -746,7 +749,7 @@
   :block/updated-at 1656698083577}
  {:block/name "프로젝트",
   :block/created-at 1660287025501,
-  :block/updated-at 1665375992578}
+  :block/updated-at 1665632151740}
  {:block/name "플랫폼 flatform",
   :block/created-at 1660098045068,
   :block/updated-at 1660098045068}
