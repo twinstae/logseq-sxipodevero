@@ -357,6 +357,9 @@
  {:block/name "oct 13th, 2022",
   :block/created-at 1665622695746,
   :block/updated-at 1665622695746}
+ {:block/name "oct 17th, 2022",
+  :block/created-at 1666007942376,
+  :block/updated-at 1666007942376}
  {:block/name "oct 1st, 2022",
   :block/created-at 1664629919949,
   :block/updated-at 1664629919949}
@@ -689,7 +692,7 @@
   :block/updated-at 1660231632396}
  {:block/name "수집함",
   :block/created-at 1660229902910,
-  :block/updated-at 1665625860001}
+  :block/updated-at 1666010832325}
  {:block/name "시스템을 바꾸지 못하면 개인이 희생하게 된다.",
   :block/created-at 1660284274579,
   :block/updated-at 1660284274579}
