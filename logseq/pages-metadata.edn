@@ -363,6 +363,9 @@
  {:block/name "oct 18th, 2022",
   :block/created-at 1666055093274,
   :block/updated-at 1666055093274}
+ {:block/name "oct 19th, 2022",
+  :block/created-at 1666146117760,
+  :block/updated-at 1666146117760}
  {:block/name "oct 1st, 2022",
   :block/created-at 1664629919949,
   :block/updated-at 1664629919949}
@@ -549,6 +552,9 @@
  {:block/name "todo",
   :block/created-at 1656696917898,
   :block/updated-at 1656696917898}
+ {:block/name "trpg",
+  :block/created-at 1666146139523,
+  :block/updated-at 1666146139523}
  {:block/name "tui",
   :block/created-at 1660099552573,
   :block/updated-at 1660099552573}
@@ -695,7 +701,7 @@
   :block/updated-at 1660231632396}
  {:block/name "수집함",
   :block/created-at 1660229902910,
-  :block/updated-at 1666057821884}
+  :block/updated-at 1666146160418}
  {:block/name "시스템을 바꾸지 못하면 개인이 희생하게 된다.",
   :block/created-at 1660284274579,
   :block/updated-at 1660284274579}
