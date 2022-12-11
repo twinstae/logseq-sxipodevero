@@ -149,6 +149,9 @@
  {:block/name "database 데이터베이스",
   :block/created-at 1664507200764,
   :block/updated-at 1664507200764}
+ {:block/name "dec 11th, 2022",
+  :block/created-at 1670736663535,
+  :block/updated-at 1670736663535}
  {:block/name "declarative 선언적",
   :block/created-at 1656698593057,
   :block/updated-at 1656771502506}
