@@ -1,0 +1,1 @@
+- https://book.realworldhaskell.org/read/
