@@ -1,0 +1,6 @@
+- ## Describing UI
+	- ### Your first component
+		- id:: 63ffe473-7494-4b13-a7d4-4f49bf623074
+		- `return` 문을 빼 먹어서 그렇습니다. React의 component는 JSX를 반환하는 함수여야 합니다.
+-
+-
