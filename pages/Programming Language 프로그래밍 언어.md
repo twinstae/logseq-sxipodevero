@@ -1,13 +1,16 @@
 alias:: 언어
 
 - 내가 좋아하는 언어
-	- 마이너 중의 메이저는 되야 한다
-	- 표준을 레버리지할 수 있어야 한다
-	- 컴파일이 빠르거나 동적 언어이거나, 그걸 상쇄할 이득이라도 있어야 한다
+	- 각 분야의 사람들에게 익숙하고 쉽게 이해할 수 있으면 좋겠다
+	- 컴파일이 빠르거나 동적 언어면 좋겠다
 - 플랫폼 개발
-	- kotlin, swift, dart, moonbit
+	- [[Javascript 자바스크립트]], [[TypeScript]]
+	- [[Kotlin]]
+	- [[Swift 스위프트]]
+	- [[Dart 다트]]
 - 백엔드, DB
-	- golang, rust, JVM, [[Elixir 엘릭서]]
+	- [[Go]]
+	- [[Rust 러스트]], [[Elixir 엘릭서]]
 - 데이터 분석
 	- python, [[Julia]]
 - 플러그인과 에디터, 도구
@@ -16,31 +19,21 @@ alias:: 언어
 	- [[C]], [[C++]]
 		- [[Lua 루아]]
 	- [[C#]], F#
-	- haskell
--
--
-- [[JVM]]
-	- [[Java]]
-	- [[Kotlin]]
-	- [[Scala]]
-	- [[Clojure 클로저]]
-- [[Erlang]]
-	- [[Gleam]]
-	- [[LFE]]
-- [[Go]]
-- [[Zig]]
-- [[Rust 러스트]]
-- [[Ocaml 오캐믈
-- [[Haskell 하스켈]]
-- [[Javascript 자바스크립트]]
+	- [[JVM]]
+		- [[Java]]
+		- [[Scala]]
+		- [[Clojure 클로저]]
+	- [[Erlang]]
+		- [[Gleam]]
+		- [[LFE]]
+	- [[Zig]]
+	- [[Ocaml 오캐믈]]
+	- [[Haskell 하스켈]]
+	- [[Smalltalk 스몰톡]]
+	- [[Prolog 프로로그]]
 	- [[PureScript]]
-	- [[TypeScript]]
 	- [[Rescript 리스크립트]]
 	- [[Elm 엘름]]
-- [[Smalltalk 스몰톡]]
-- [[Prolog 프로로그]]
-- [[R]]
-- [[Ruby 루비]]
-- [[Python 파이썬]]
-- [[Swift 스위프트]]
-- [[Dart 다트]]
+	- [[R]]
+	- [[Ruby 루비]]
+	- [[Python 파이썬]]
