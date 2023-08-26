@@ -1,17 +1,30 @@
 alias:: 언어
 
+- 내가 좋아하는 언어
+	- 마이너 중의 메이저는 되야 한다
+	- 표준을 레버리지할 수 있어야 한다
+	- 컴파일이 빠르거나 동적 언어이거나, 그걸 상쇄할 이득이라도 있어야 한다
+- 플랫폼 개발
+	- kotlin, swift, dart, moonbit
+- 백엔드, DB
+	- golang, rust, JVM, [[Elixir 엘릭서]]
+- 데이터 분석
+	- python, [[Julia]]
+- 플러그인과 에디터, 도구
+	- lua
+- 유학
+	- [[C]], [[C++]]
+		- [[Lua 루아]]
+	- [[C#]], F#
+	- haskell
 -
-- [[Julia]]
+-
 - [[JVM]]
 	- [[Java]]
 	- [[Kotlin]]
 	- [[Scala]]
 	- [[Clojure 클로저]]
-- [[C]], [[C++]]
-	- [[Lua 루아]]
-- [[C#]]
 - [[Erlang]]
-	- [[Elixir 엘릭서]]
 	- [[Gleam]]
 	- [[LFE]]
 - [[Go]]
