@@ -10,15 +10,17 @@ alias:: 언어
 	- [[Dart 다트]]
 - 백엔드, DB
 	- [[Go]]
-	- [[Rust 러스트]], [[Elixir 엘릭서]]
+	- [[Rust 러스트]]
+	- [[Elixir 엘릭서]]
 - 데이터 분석
 	- python, [[Julia]]
 - 플러그인과 에디터, 도구
 	- lua
-- 유학
+- 게임
 	- [[C]], [[C++]]
 		- [[Lua 루아]]
 	- [[C#]], F#
+- 유학
 	- [[JVM]]
 		- [[Java]]
 		- [[Scala]]
